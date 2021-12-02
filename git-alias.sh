@@ -5,7 +5,8 @@ alias gb='git branch'
 alias gbd="git branch -D"
 
 alias gf='git fetch'
-alias gh='git checkout master'
+alias gh='git checkout master' # deprecated - master will be replace with main
+alias gn='git checkout main'
 alias gw='git checkout -' # switch branches
 alias gcb='git checkout -b'
 
